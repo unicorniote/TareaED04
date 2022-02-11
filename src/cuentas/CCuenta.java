@@ -8,6 +8,8 @@ public class CCuenta {
     private double saldo;
     private double tipoInteres;
     
+    private int edad;
+    
     public CCuenta()
     {
     }
