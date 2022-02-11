@@ -1,11 +1,20 @@
 package cuentas;
 
+/**
+ * Clase principal que maneja el progama
+ * @author Tamara
+ *
+ */
 public class Main {
 
     public static void main(String[] args) {
         operativa_cuenta(0);
     }
-
+    
+    /**
+     * Crea objetos de tipo CCuenta y retira e ingresa cantidades de saldo en la cuenta
+     * @param cantidad cantidad con la que operar
+     */
 	private static void operativa_cuenta(float cantidad) {
 		CCuenta cuenta1;
         double saldoActual;
